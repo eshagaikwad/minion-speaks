@@ -1,0 +1,59 @@
+.navigation{
+    background-color:#FBBF24;
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius:1rem ;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font:bolder;
+    text-align: center;
+
+}
+  .img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    float: inline-start;
+    align:center;
+    margin-left: auto;  
+margin-right: auto; 
+    
+
+  }
+  .button {
+   background-color:#FBBF24 ;
+   padding:2rem;
+   text-align: center;
+   text-align: left;
+
+  }
+  .div{
+      text-align: center;
+  }
+
+.footer{
+    background-color: #FBBF24;
+    padding: 4rem 0rem;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius:1rem ;
+    margin: auto;
+}
+.footer .link{
+    color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    
+}
+.footer ul{
+    padding-inline-start: 0px;
+}

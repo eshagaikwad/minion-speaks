@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BANANA SPEAK</title>
+    <link href="style.css" rel="stylesheet"/>
     <style>
         
         textarea{
+            border: 1px solid white;
             width: 80%;
-            height: 10vh;
+            height: 20vh;
             display: block;
-            margin: 1rem;
-            padding: 1rem;
+            margin: 2rem;
+            padding: 2rem 2rem;
+            text-align: center;
         }
         #output
         {
-           border: 1px solid black;
+           border: 1px solid white;
            width: 80%;
-            height: 10vh;
-            margin: 1rem;
-            padding: 1rem;
+            height: 20vh;
+            margin: 2rem;
+            padding: 2rem 2rem;
         
         }
         
@@ -28,11 +31,31 @@
     
 </head>
 <body>
-    <h1>talk BANANA</h1> 
-    <textarea id="txt-input" placeholder="put your sentence here in English and we will convert it to banana "></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: larger;">output will come here 👇</div>
+    
+        <nav class="navigation container"> 
+            <div class="nav-brand">I AM MINION 
+            </div> 
+            <img class="img" src = "images/minions.png" \>
+            <div class="div">ABOUT ME: MY NAME IS MINION 👋 <br>I actually speak a language known as “minion-ese” however this language is easy to learn, especially if you know some Spanish and Italian.🈯 <br> I AM HERE TO CONVERT YOUR SENTENCES INTO MY LANGUAGE.😃 <br> SO DROP THEM BELOW.👇🏽 </div>
+    <textarea id="txt-input" placeholder="PUT YOUR SENTENCE IN ENGLISH HERE AND IT WILL CONVERT IN MINION LANGUAGE. "></textarea>
+    <button class="button" id="btn-translate">Translate</button>
+   
+    <div  style="font-size: larger;">output will come here 👇</div>
     <div id="output"></div>
+    <footer class="footer">
+        <div class="footer-header">you can connect with me socially.</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="links" href="https://www.instagram.com/eshagaikwad01/">instagram</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="https://github.com/eshagaikwad">github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="https://www.linkedin.com/feed/">twitter</a>
+            </li>
+        </ul>
+    </footer>       
     <script src="app.js" type="text/javascript">
     </script>
 
